@@ -1,0 +1,2 @@
+Test A read count as: 26
+Test A wrote count as: 27
