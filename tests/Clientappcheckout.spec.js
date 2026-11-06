@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 const { LoginPage } = require('./utils/Loginpage');
-const { DashboardPage } = require('./utils/Dashboardpage');
+const { DashboardPage } = require('./utils/DashboardPage');
 const { CartPage } = require('./utils/Cartpage');
 const { CheckoutPage } = require('./utils/Checkoutpage');
 
