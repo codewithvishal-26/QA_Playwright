@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 const { LoginPage } = require('./utils/Loginpage');
 const { DashboardPage } = require('./utils/Dashboardpage');
 const { CartPage } = require('./utils/Cartpage');
-const { CheckoutPage } = require('./utils/Checkoutpagenpx ');
+const { CheckoutPage } = require('./utils/Checkoutpage');
 
 test('Client App full checkout flow using Page Object Model', async ({ page }) => {
     const email = 'testuser1787810623872@test.com';
