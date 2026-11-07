@@ -4,6 +4,8 @@ const { DashboardPage } = require('./utils/DashboardPage');
 const { CartPage } = require('./utils/Cartpage');
 const { CheckoutPage } = require('./utils/Checkoutpage');
 
+// Vishal has created a new branch to check the pull request
+
 test('Client App full checkout flow using Page Object Model', async ({ page }) => {
     const email = 'testuser1787810623872@test.com';
     const password = 'Strong@123';
